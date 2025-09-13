@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <div class="wave-container">
+            <div class="wave"></div>
+        </div>
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <head>
+
+            <div style="height: 20px;"> </div>
+            <header class="floating-text">In Memoriam, BabyNoir</header>
+            <div style="height: 120px;"> </div>
+            <title>BabyNoir</title>
+    </head>
+    <body>
+        <div class="bubbles">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+        </div>
+        <div class="wave-container">
+            <div class="wave"></div>
+            <div class="bubbles">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+        </div>
+        </div>
+        
+        <div class="light-rays"></div>
+
+
+        <script>
+
+        document.addEventListener('click', function(e) {
+        const ripple = document.createElement('span');
+        ripple.className = 'ripple';
+        ripple.style.left = e.clientX + 'px';
+        ripple.style.top = e.clientY + 'px';
+        document.body.appendChild(ripple);
+    
+        // Remove the ripple after animation
+        ripple.addEventListener('animationend', () => {
+            ripple.remove();
+        });
+        });
+
+        </script>
+
+
+        <div class="fish" id="fish1"></div>
+        <div class="fish" id="fish2"></div>
+        <div class="fish" id="fish3"></div>
+
+
+
+        <div style="height: 50px;"> </div>
+
+        <div class="wave-container">
+            <div class="wave"></div>
+        </div>
+
+        <div style="height: 90px;"> </div>
+
+        <div class="wave-container">
+            <div class="wave"></div>
+        </div>
+
+        <div style="height: 120px;"> </div>
+
+        <div class="wave-container">
+            <div class="wave"></div>
+        </div>
+
+        <div class="bubbles">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+        </div>
+
+        <div class="val-container">
+            <div class="val"></div>
+            <div class="val"></div>
+            <div class="val"></div>
+            <div class="val"></div>
+            <div class="val"></div>
+        </div>
+
+    </body>
+</html>
